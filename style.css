@@ -1,0 +1,16 @@
+#grid-container {
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+#grid-container div {
+    flex: 1 1 calc(100% / 16);
+    aspect-ratio: 1;
+    background-color: rgb(160, 216, 56);
+    border: 1px solid red;
+    box-sizing: border-box;
+
+}
