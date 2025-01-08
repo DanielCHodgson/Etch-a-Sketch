@@ -7,10 +7,17 @@
 }
 
 #grid-container div {
-    flex: 1 1 calc(100% / 16);
     aspect-ratio: 1;
-    background-color: rgb(160, 216, 56);
-    border: 1px solid red;
+    background-color: #f9f9f9;
+    border: 1px solid black;
     box-sizing: border-box;
 
+}
+
+#new-button {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
